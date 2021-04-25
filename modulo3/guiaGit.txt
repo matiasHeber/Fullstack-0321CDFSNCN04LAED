@@ -1,4 +1,15 @@
--> git init
--> git status
+git status --> Devuelve el estado actual del respositorio
 
+git config user.name <nombreUsuario> --> Setea el nombre de usuario de Github en nuestro repositorio para poder subir cambios
 
+git config user.email <email> --> Setea el email de Github en nuestro repositorio para poder subir cambios
+
+(NOTA: Al configurar el usuario y mail podemos agregar -global a la linea del comando para que esta configuración sea la predeterminada para todos los repositorios   "git config -global user.email <email>" )
+
+git remote add <url>  --> Agrega a la configuración la url del repositorio remoto donde impactarán los cambios
+
+git add <nombreArchivo> --> Agrega los cambios hechos en archivos a la etapa de 'stage'
+
+git commit -m <mensaje> --> Agrega los cambios de la etapa 'stage' para ser enviados al repositorio remoto
+
+git push --> Envía los cambios del commit al repositorio remoto
