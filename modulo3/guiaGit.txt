@@ -13,3 +13,8 @@ git add <nombreArchivo> --> Agrega los cambios hechos en archivos a la etapa de 
 git commit -m <mensaje> --> Agrega los cambios de la etapa 'stage' para ser enviados al repositorio remoto
 
 git push --> Envía los cambios del commit al repositorio remoto
+
+
+git push --set-upstream origin <branch> -> Agrega a la configuracion el push predeterminado para no especificar el remoto y la branch a la hora de ejecutar push
+
+(Luego en vez de 'git push origin main' podemos utilizar 'git push')
